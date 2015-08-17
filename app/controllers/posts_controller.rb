@@ -9,7 +9,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1
   # GET /posts/1.json
-  def show
+  def show   # corresponds to the show.html.erb file in /app/views
     @post.title = @post.title.upcase # It works!
   end
 
